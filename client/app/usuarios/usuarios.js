@@ -10,7 +10,6 @@ angular.module('videoClubApp')
             })
             .state('usuarios-create', {
                 url: '/usuarios-create',
-                authenticate: true,
                 template: '<usuarios-create></usuarios-create>'
             })
             .state('usuarios-update', {
