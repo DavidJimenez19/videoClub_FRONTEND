@@ -7,6 +7,10 @@
             this.usuariosService = usuariosService;
             this.NavegateParams = NavegateParams;
             this.$state = $state;
+            this.query = {
+                limit: 4,
+                page: 1
+            };
         }
 
         cambiarStatus(item) {
